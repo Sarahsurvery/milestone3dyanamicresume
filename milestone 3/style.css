@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(206, 159, 250);
+}
+
+ h2{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+ 
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(121, 120, 120);
+    border-radius: 20px;
+    box-shadow: 0 8px 10px;
+    padding: 40px;
+}
+
+fieldset {
+    border: 2px solid rgb(6, 4, 8);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(125, 179, 226);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color:rgb(17, 14, 14);
+}
+
+label{  
+    display: block;
+    margin-top: 10px;
+    color:black;
+}
+
+input,textarea {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    border-style: line;
+}
+
+button {
+    display:block;
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: aquamarine;
+    
+}
+/* Resume Content Styling */
+#resume-content {
+    width:500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
